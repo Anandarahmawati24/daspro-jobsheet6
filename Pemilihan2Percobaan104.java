@@ -1,5 +1,4 @@
 import java.util.Scanner;
-import java.util.scanner;
 public class Pemilihan2Percobaan104{
 
     public static void main(String[] args) {
@@ -9,11 +8,10 @@ public class Pemilihan2Percobaan104{
         tahun=input04.nextInt();
 
         if ((tahun % 4)== 0) {
-            if ((tahun % 100) != 0)
+            if ((tahun % 100) != 0){
             System.out.println(" Tahun Kabisat ");
-        } else 
+        }   else 
         System.out.println(" Bukan Tahun Kabisat ");
     }
 }
-
-// test bug commit 
+}
