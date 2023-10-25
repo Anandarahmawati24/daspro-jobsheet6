@@ -1,6 +1,5 @@
 import java.util.Scanner;
 public class studikasusjobsheet6{
-
     public static void main(String[] args) {
         Scanner input04 = new Scanner(System.in);
         int suhu;

@@ -8,7 +8,6 @@ public static void main(String[] args) {
     Buku= input04.nextLine();
     System.out.println("Masukkan jumlah buku yang di beli:  ");
     JmlBuku=input04.nextInt();
-
   if (Buku.equals("kamus")) {
             diskon = 10;
             if (JmlBuku > 2) {
